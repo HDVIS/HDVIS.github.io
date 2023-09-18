@@ -46,7 +46,7 @@ export function TopBar(props: Props) {
         High-Dimensional Data Visualization
         </Typography>
 
-        <div className={classes.sectionDesktop}>
+        {/* <div className={classes.sectionDesktop}>
           <IconButton
             edge="end"
             aria-label="link to arxiv paper"
@@ -74,7 +74,7 @@ export function TopBar(props: Props) {
           >
             <CloudUpload />  <span style={{fontSize: '12px'}} className={classes.iconName}> {' '}Contribute </span>
           </IconButton>
-        </div>
+        </div> */}
       </Toolbar>
     </AppBar>
   );
