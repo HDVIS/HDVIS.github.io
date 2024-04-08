@@ -38,7 +38,6 @@ const TrajectoryTagDetails = {
   "Q2": "Dummy illustration for Trajectory Q2.",
   "Q3": "Dummy illustration for Trajectory Q3.",
   "Q4": "Dummy illustration for Trajectory Q4.",
-  "Q5": "Dummy illustration for Trajectory Q5.",
 }
 
 const CorrelationTagDetails = {
@@ -59,7 +58,6 @@ const DistributionTagDetails = {
   "Q1": "Dummy illustration for Distribution Q1.",
   "Q2": "Dummy illustration for Distribution Q2.",
   "Q3": "Dummy illustration for Distribution Q3.",
-  "Q4": "Dummy illustration for Distribution Q4.",
 }
 
 interface Props {

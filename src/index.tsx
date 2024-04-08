@@ -46,77 +46,73 @@ export interface Paper {
 
 export const getTrajectoryAvatar = (s: string) => {
   if(s === 'Q1') {
-      return 'Tr2'
-  } else if(s === 'Q2') {
-      return 'Tr3'
-  } else if (s === 'Q3') {
       return 'Tr1'
+  } else if(s === 'Q2') {
+      return 'Tr2'
+  } else if (s === 'Q3') {
+      return 'Tr3'
   } else if (s === 'Q4') {
-      return 'Tr5'
-  } else if (s === 'Q5') {
       return 'Tr4'
-  }
+  } 
 };
 
 export const getTrajectoryLabel = (s: string) => {
   if(s === 'Q1') {
-      return 'Temporal Dynamics Trajectory of Items'
+      return 'Trajectory of Items'
   } else if(s === 'Q2') {
-      return 'Temporal Dynamics Trajectory of Dimensions'
+      return 'Trajectory of Dimensions'
   } else if (s === 'Q3') {
-      return 'Spatial Dynamics Trajectory of Items'
+      return 'Dynamics of Trajectories'
   } else if (s === 'Q4') {
-      return 'Spatial Dynamics Trajectory of Dimensions'
-  } else if (s === 'Q5') {
-      return 'Interactions and Comparison among Trajectory'
-  }
+      return 'Interactions and Comparison Among Trajectories'
+  } 
 };
 
 export const getCorrelationAvatar = (s: string) => {
   if(s === 'Q1') {
-      return 'Co3'
+      return 'Co2'
   } else if(s === 'Q2') {
       return 'Co1'
   } else if (s === 'Q3') {
-      return 'Co2'
+      return 'Co3'
   }
 };
 
 export const getCorrelationLabel = (s: string) => {
   if(s === 'Q1') {
-      return 'Correlation among Items'
+      return 'Correlation between Dimensions'
   } else if(s === 'Q2') {
-      return 'Correlation among Dimensions'
+      return 'Correlations between Items'
   } else if (s === 'Q3') {
-      return 'Correlation among Items and Dimensions'
+      return 'Correlation between Items and Dimensions'
   }
 };
 
 export const getClusteringAvatar = (s: string) => {
   if(s === 'Q1') {
-      return 'Cl3'
-  } else if(s === 'Q2') {
       return 'Cl1'
-  } else if (s === 'Q3') {
-      return 'Cl4'
-  } else if (s === 'Q4') {
-      return 'Cl2'
-  } else if (s === 'Q5') {
+  } else if(s === 'Q2') {
       return 'Cl5'
+  } else if (s === 'Q3') {
+      return 'Cl2'
+  } else if (s === 'Q4') {
+      return 'Cl3'
+  } else if (s === 'Q5') {
+      return 'Cl4'
   }
 };
 
 export const getClusteringLabel = (s: string) => {
   if(s === 'Q1') {
-      return 'Existence of Item Clusters'
+      return 'Clustering of Items'
   } else if(s === 'Q2') {
-      return 'Existence of Dimension Clusters'
+      return 'Existence of Clusters'
   } else if (s === 'Q3') {
-      return 'Name of Item Clusters'
+      return 'Name of Clusters'
   } else if (s === 'Q4') {
-      return 'Name of Dimension Clusters'
-  } else if (s === 'Q5') {
       return 'Relationship among Clusters'
+  } else if (s === 'Q5') {
+      return 'Clustering of Dimensions'
   }
 };
 
@@ -124,24 +120,20 @@ export const getDistributionAvatar = (s: string) => {
   if(s === 'Q1') {
       return 'Di1'
   } else if(s === 'Q2') {
-      return 'Di3'
+      return 'Di2'
   } else if (s === 'Q3') {
       return 'Di3'
-  } else if (s === 'Q4') {
-      return 'Di4'
   }
 };
 
 export const getDistributionLabel = (s: string) => {
   if(s === 'Q1') {
-      return 'Dimension Distribution on Different Clusters'
+      return 'Distribution of dimension(s) on different items'
   } else if(s === 'Q2') {
-      return 'Spatial Distribution of Item Clusters'
+      return 'Distribution of items in a 2D space'
   } else if (s === 'Q3') {
-      return 'Spatial Distribution of Dimension Clusters'
-  } else if (s === 'Q4') {
-      return 'Distribution of Items in 2D Space'
-  }
+      return 'Spatial distribution of item clusters or dimensions'
+  } 
 };
 
 export default function App() {
@@ -173,6 +165,7 @@ export default function App() {
     const papers = await fetch(`/assets/${version}.json`).then((res) =>
       res.json()
     );
+    console.log(papers);
     setPapers(papers);
     const initialTrajectoryTag = papers.reduce((o, d) => {
       d.Trajectory.forEach((v) => {
@@ -364,6 +357,7 @@ export default function App() {
     fetchData(version)
   }
 
+  
   const papersAfterFilter = Array.from(new Set(papers.filter((p) => p.Trajectory.some(((tr) => TrajectoryTags[tr])) && p.Title.toLowerCase().includes(searchKey)).concat(papers.filter((p) => p.Correlation.some((co) => CorrelationTags[co]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.Clustering.some((cl) => ClusteringTags[cl]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.Distribution.some((di) => DistributionTags[di]) && p.Title.toLowerCase().includes(searchKey)))));
 
   // const papersAfterFilter = Array.from(intersection(new Set(papers.filter((p) => p.Trajectory.some(((tr) => TrajectoryTags[tr])) && p.Title.toLowerCase().includes(searchKey))), intersection(new Set(papers.filter((p) => p.Correlation.some((co) => CorrelationTags[co]) && p.Title.toLowerCase().includes(searchKey))), intersection(new Set(papers.filter((p) => p.Clustering.some((cl) => ClusteringTags[cl]) && p.Title.toLowerCase().includes(searchKey))), new Set(papers.filter((p) => p.Distribution.some((di) => DistributionTags[di]) && p.Title.toLowerCase().includes(searchKey)))))));
