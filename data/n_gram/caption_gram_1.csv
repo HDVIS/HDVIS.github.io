@@ -1,0 +1,1001 @@
+Spacy,Words,Frequency
+cell,"cells, cell",5536
+expression,"expression, expressions",4059
+gene,"genes, gene",3960
+show,"shown, showed, showing",3170
+fig,"fig, figs",3099
+plot,"plot, plots, plotting, plotted",2686
+indicate,"indicates, indicating, indicated, indicate",2402
+cluster,"clustered, cluster, clusters, clustering",2254
+analysis,"analysis, analyses",2226
+bar,"bars, bar",2094
+single,"singles, single",2034
+datum,"datum, data",1990
+represent,"represented, represent, representing, represents",1842
+express,"expressing, expressed, express, expresses",1806
+type,"types, type, typing",1800
+red,"reds, red",1754
+color,"colors, colored, color, coloring",1725
+marker,"marker, markers",1714
+seq,seq,1680
+mouse,"mouse, mice",1642
+right,right,1591
+scale,"scaling, scaled, scale, scales",1524
+number,"numbered, numbers, number, numbering",1516
+test,"tests, test, tested, testing",1504
+value,"value, valued, values",1448
+mean,"meaning, means, mean",1439
+level,"level, levels",1371
+sample,"sample, sampling, sampled, samples",1322
+blue,"blue, blues",1304
+representative,"representatives, representative",1244
+identify,"identifies, identifying, identified, identify",1210
+line,"lining, lines, line, lined",1184
+base,"base, based",1167
+rna,"rnas, rna",1165
+leave,"leaving, leave, leaves, left",1122
+heatmap,"heatmap, heatmaps",1107
+control,"controlling, control, controlled, controls",1077
+high,"higher, high, highest",1076
+different,different,1063
+population,"population, populations",1029
+specific,specific,1010
+dot,"dot, dots, dotted",996
+green,green,979
+individual,"individual, individuals",955
+group,"grouped, groups, grouping, group",953
+distribution,"distribution, distributions",952
+experiment,"experiments, experiment",931
+point,"pointed, points, pointing, point",903
+score,"score, scoring, scores, scored",885
+human,"humans, human",875
+average,"averaged, average, averaging, averages",873
+time,"time, times, timed",849
+change,"changed, change, changes, changing",841
+compare,"comparing, compared, compares, compare",839
+image,"imaging, images, imaged, image",832
+low,"lower, lows, lowest, low",831
+clustering,"clustering, clusterings",827
+normalize,"normalizes, normalized, normalize, normalizing",799
+select,"selected, selects, select, selecting",790
+sne,"snes, sne",786
+map,"mapped, map, mapping, maps",779
+scrna,scrna,775
+schematic,"schematic, schematics",770
+relative,relative,749
+table,"table, tables",741
+correlation,"correlation, correlations",736
+profile,"profile, profiling, profiles, profiled",735
+percentage,"percentages, percentage",721
+total,"totaling, totalling, totals, total",717
+differentially,differentially,715
+relate,"related, relating, relates, relate",705
+day,"day, days",705
+independent,independent,704
+comparison,"comparison, comparisons",702
+axis,"axes, axis",687
+sequence,"sequencing, sequence, sequenced, sequences",678
+tissue,"tissues, tissue",668
+method,"methods, method",656
+enrich,"enriched, enrich, enriching",649
+panel,"panel, panels",647
+correspond,"corresponds, correspond, corresponding, corresponded",641
+left,left,635
+associate,"associating, associated, associate, associates",632
+label,"labelled, labeling, label, labelling, labeled, labels",627
+reveal,"reveal, revealed, reveals, revealing",623
+significant,significant,617
+enrichment,"enrichments, enrichment",609
+respectively,respectively,605
+umap,"umaps, umap",601
+result,"resulting, results, resulted, result",595
+detect,"detect, detects, detecting, detected",593
+set,"setting, sets, set",591
+derive,"deriving, derive, derived",587
+region,"region, regions",583
+violin,"violins, violin",582
+versus,versus,580
+signature,"signature, signatures",577
+arrow,"arrow, arrows",569
+non,non,569
+lineage,"lineage, lineages",568
+include,"include, includes, included, including",565
+gray,gray,556
+black,black,549
+define,"defines, define, defined, defining",549
+neuron,"neurons, neuron",548
+count,"counted, counts, count, counting",548
+pattern,"pattern, patterns, patterned, patterning",545
+differentiation,"differentiation, differentiations",542
+distinct,distinct,537
+follow,"following, followed, follow, follows",535
+state,"states, stated, state",531
+box,"boxes, boxed, box",529
+patient,"patients, patient",524
+subset,"subset, subsets",523
+stain,"stained, stain, stains, staining",521
+quantification,"quantifications, quantification",517
+size,"size, sizes",515
+fold,"folds, fold, folded, folding",512
+depict,"depict, depicted, depicts, depicting",512
+protein,"proteins, protein",511
+highlight,"highlighted, highlight, highlighting, highlights",510
+row,"row, rows",507
+perform,"performs, perform, performed, performing",505
+column,"column, columns",502
+model,"models, modeling, modeled, model, modelling",497
+progenitor,"progenitors, progenitor",496
+transcript,"transcript, transcripts",494
+stage,"staged, stage, stages",493
+replicate,"replicates, replicating, replicate, replicated",489
+proportion,"proportion, proportions",489
+transcriptome,"transcriptome, transcriptomes",488
+transcriptional,transcriptional,488
+positive,"positive, positives",485
+error,"errors, error",483
+present,"presents, presented, present, presenting",481
+section,"sections, sectioned, sectioning, section",481
+calculate,"calculate, calculated, calculates, calculating",476
+dataset,"datasets, dataset",476
+analyze,"analyze, analyzed, analyzing",467
+determine,"determines, determine, determining, determined",458
+experimental,experimental,458
+differential,differential,457
+display,"displays, displaying, display, displayed",450
+tsne,"tsnes, tsne",449
+supplementary,supplementary,448
+median,"median, medians",443
+code,"coded, code, coding, codes",440
+signal,"signals, signal, signaled, signaling, signalling",438
+frequency,"frequencies, frequency",437
+fraction,"fractions, fraction",437
+sem,"sem, sems",434
+tumor,"tumor, tumors",429
+accord,according,427
+increase,"increasing, increased, increase, increases",426
+condition,"condition, conditioning, conditioned, conditions",425
+yellow,yellow,423
+rank,"ranking, ranks, ranked, rank",423
+sort,"sorted, sorts, sort, sorting",420
+factor,"factor, factors",406
+cytometry,cytometry,403
+white,white,402
+multiple,"multiples, multiple",400
+pathway,"pathway, pathways",400
+bulk,"bulks, bulked, bulk",399
+mark,"marked, mark, marks, marking",397
+order,"ordered, ordering, orders, order",397
+treat,"treating, treated",393
+mrna,"mrna, mrnas",389
+biological,biological,389
+significantly,significantly,388
+target,"targets, target, targeted, targeting",387
+transcription,transcription,387
+trajectory,"trajectory, trajectories",386
+difference,"differences, difference",385
+pair,"pair, pairing, pairs, paired",384
+measure,"measure, measuring, measured, measures",382
+similar,similar,379
+graph,"graphed, graph, graphs",379
+projection,"projection, projections",372
+culture,"cultures, culturing, culture, cultured",366
+data,data,364
+brain,"brain, brains",362
+isolate,"isolates, isolate, isolated, isolating",362
+denote,"denotes, denote, denoting, denoted",361
+donor,"donor, donors",361
+example,"example, examples",360
+response,"response, responses",359
+flow,"flows, flow",359
+circle,"circle, circles, circled",357
+macrophage,"macrophages, macrophage",357
+middle,"middling, middle",356
+visualization,"visualizations, visualization",351
+treatment,"treatments, treatment",349
+identity,"identity, identities",349
+immune,immune,348
+dash,"dashed, dash, dashes",347
+read,"reading, reads, read",346
+blood,blood,346
+adult,"adult, adults",344
+induce,"induced, induces, induce, inducing",341
+heat,heat,340
+representation,"representations, representation",339
+component,"component, components",335
+week,"week, weeks",334
+log,"log, logs, logged",333
+subtype,"subtype, subtypes, subtyping",333
+generate,"generated, generates, generating, generate",332
+function,"functions, functioning, function",331
+post,post,331
+know,"know, knew, known",330
+area,"area, areas",330
+pseudotime,"pseudotimes, pseudotimed, pseudotime",329
+subpopulation,"subpopulations, subpopulation",326
+cycle,"cycles, cycle, cycling",324
+early,"early, earlier, earliest",323
+staining,"stainings, staining",322
+contain,"containing, contains, contain, contained",321
+like,"likes, like",320
+hierarchical,hierarchical,318
+activation,activation,316
+key,"key, keys",315
+development,development,315
+find,"finds, finding, find, found",315
+epithelial,epithelial,311
+identification,"identifications, identification",311
+observe,"observe, observed, observing",309
+ratio,"ratios, ratio",309
+pool,"pool, pooled, pools, pooling",308
+colour,"colours, colour, colouring, coloured",305
+tail,"tailed, tails, tail, tailing",305
+significance,significance,303
+pca,pca,302
+purple,purple,302
+diagram,"diagram, diagrammed, diagrams",300
+student,"students, student",298
+age,"aged, aging, ages, age, ageing",298
+negative,"negative, negatives",295
+nucleus,"nucleus, nuclei",295
+highly,highly,293
+orange,orange,292
+major,major,292
+cellular,cellular,290
+obtain,"obtaining, obtain, obtained",290
+developmental,developmental,290
+neuronal,neuronal,290
+embed,"embedding, embedded",287
+anova,anova,286
+process,"processed, processing, processes, process",281
+pearson,pearson,280
+receptor,"receptors, receptor",279
+way,"way, ways",278
+density,"densities, density",277
+range,"ranged, range, ranges, ranging",276
+activate,"activate, activates, activated, activating",275
+regulate,"regulates, regulate, regulated, regulating",275
+feature,"feature, featuring, features, featured",274
+wilcoxon,wilcoxon,274
+sided,sided,273
+overlap,"overlaps, overlapping, overlap, overlapped",272
+monocyte,"monocytes, monocyte",271
+primary,primary,269
+gfp,gfp,267
+figure,figures,267
+gate,"gate, gated, gates, gating",266
+heterogeneity,"heterogeneities, heterogeneity",266
+study,"study, studying, studied, studies",263
+upper,upper,262
+intensity,"intensity, intensities",262
+strategy,"strategies, strategy",262
+dapi,dapi,260
+endothelial,endothelial,260
+note,"note, notes, noted",258
+overview,overview,258
+separate,"separate, separated, separates, separating",257
+small,"small, smaller, smallest",257
+extend,"extending, extend, extends, extended",253
+assign,"assigned, assigns, assigning, assign",252
+unique,unique,251
+effect,"effect, effects",250
+statistical,statistical,250
+adjust,"adjusted, adjusting, adjust",249
+term,"term, terms, termed",249
+arrowhead,"arrowhead, arrowheads",247
+assay,"assayed, assays, assay, assaying",246
+list,"listing, list, lists, listed",246
+molecular,molecular,242
+give,"gave, gives, given, giving",242
+rate,"rates, rate",242
+fdr,"fdr, fdrs",242
+fac,"facs, fac",242
+lung,"lung, lungs",242
+activity,"activity, activities",238
+sum,"summed, sum, sums, summing",238
+dynamic,"dynamic, dynamics",236
+situ,situ,236
+large,"large, largest, larger",235
+library,"library, libraries",235
+transcriptomic,"transcriptomics, transcriptomic",235
+inset,"insets, inset",234
+correlate,"correlates, correlating, correlated, correlate",234
+whisker,"whisker, whiskers",230
+healthy,healthy,230
+infer,"infer, infers, inferred, inferring",229
+estimate,"estimate, estimated, estimating, estimates",228
+predict,"predicting, predicted, predicts, predict",228
+combine,"combine, combines, combined, combining",227
+annotate,"annotated, annotating, annotate",226
+stem,"stem, stemming, stems",225
+coefficient,"coefficients, coefficient",224
+demonstrate,"demonstrate, demonstrated, demonstrating, demonstrates",224
+myeloid,"myeloids, myeloid",223
+validation,"validation, validations",223
+fibroblast,"fibroblast, fibroblasts",222
+curve,"curves, curved, curve",221
+principal,principal,221
+collect,"collecting, collect, collected",220
+animal,"animal, animals",220
+surface,"surfaces, surface",219
+standard,"standards, standard",219
+layer,"layer, layers",216
+normal,normal,216
+differentiate,"differentiated, differentiating, differentiate, differentiates",216
+network,"network, networks",215
+provide,"provide, provided, providing, provides",214
+design,"designed, design, designs",214
+vivo,vivo,213
+pcr,pcr,210
+site,"sites, site",207
+old,"old, oldest, older",207
+annotation,"annotations, annotation",206
+visualize,"visualizing, visualized, visualize, visualizes",205
+assess,"assessing, assessed, assess",205
+microglia,microglia,205
+histogram,"histogram, histograms",204
+presence,presence,203
+location,"location, locations",203
+antibody,"antibody, antibodies",203
+share,"sharing, shared, share, shares",203
+position,"position, positioned, positions",201
+wild,wild,200
+maximum,maximum,200
+phenotype,"phenotypes, phenotype, phenotyping, phenotyped",199
+functional,functional,199
+distribute,"distributes, distributed, distribute",199
+stochastic,stochastic,199
+origin,"origin, origins",196
+center,"centered, centering, center, centers",195
+transition,"transition, transitioning, transitions",195
+variable,"variables, variable",194
+match,"matches, matching, matched, match",194
+distance,"distance, distances",193
+class,"classed, classes, classing, class",193
+light,"lightest, light, lighter",193
+source,"sources, source",193
+embryo,"embryos, embryo",192
+molecule,"molecule, molecules",192
+boxplot,"boxplot, boxplots",192
+cortex,"cortices, cortex",191
+star,"stars, star",190
+quantify,"quantified, quantifying, quantifies, quantify",189
+disease,"diseased, diseases, disease",189
+scatter,"scatter, scatters, scattering, scattered",188
+overlay,"overlaid, overlayed, overlays, overlaying, overlay",188
+potential,"potentials, potential",185
+dna,"dnas, dna",185
+immunostaine,"immunostaining, immunostained",185
+whitney,whitney,185
+phase,"phased, phases, phase",184
+mann,mann,184
+genome,"genomes, genome",182
+illustrate,"illustrates, illustrated, illustrating, illustrate",181
+relationship,"relationships, relationship",181
+proliferation,"proliferations, proliferation",181
+detection,"detection, detections",180
+hybridization,"hybridizations, hybridization",180
+embryonic,embryonic,179
+regulatory,regulatory,179
+neighbor,"neighbors, neighbor, neighboring",179
+interaction,"interactions, interaction",178
+peak,"peaked, peaks, peaking, peak",177
+anti,anti,177
+vitro,vitro,176
+module,"modules, module",176
+chart,"charting, chart, charts",175
+capture,"captures, capturing, capture, captured",175
+deg,"degs, deg",174
+second,second,173
+dark,"dark, darker",173
+pre,pre,171
+abundance,"abundances, abundance",171
+confidence,"confidences, confidence",171
+bind,"binds, bound, bind, binding",171
+ontology,"ontologies, ontology",171
+ﬂow,"ﬂows, ﬂow",171
+clone,"cloning, clones, clone, cloned",171
+unpaired,unpaired,171
+suggest,"suggest, suggests, suggested, suggesting",170
+previously,previously,170
+linear,linear,170
+summary,"summaries, summary",169
+upregulate,"upregulates, upregulate, upregulated",169
+additional,additional,168
+spatial,spatial,168
+describe,"describing, describes, describe, described",167
+exhibit,"exhibited, exhibit, exhibiting, exhibits",167
+regression,"regression, regressions",167
+correction,"corrections, correction",167
+mature,"mature, maturing",166
+qpcr,qpcr,166
+matrix,"matrices, matrix",166
+peripheral,peripheral,166
+asterisk,"asterisks, asterisk",165
+profiling,profiling,165
+composition,"composition, compositions",164
+view,"view, viewed, views",164
+assignment,"assignments, assignment",164
+late,"late, latest, later",164
+decrease,"decreasing, decreases, decrease, decreased",163
+confocal,confocal,163
+interval,"intervals, interval",162
+horizontal,horizontal,161
+fate,"fate, fated, fates",161
+scatterplot,"scatterplots, scatterplot",161
+organoid,"organoid, organoids",161
+correct,"correcting, corrected, corrects, correct",160
+umi,umi,160
+main,main,159
+reporter,"reporters, reporter",158
+encode,"encoding, encodes, encode, encoded",158
+stimulation,"stimulation, stimulations",156
+astrocyte,"astrocyte, astrocytes",155
+program,"programs, program, programmed",155
+upregulated,upregulated,155
+fetal,fetal,155
+mesenchymal,mesenchymal,155
+volcano,volcano,155
+threshold,"threshold, thresholds",154
+similarity,"similarities, similarity",154
+reference,"referencing, reference, references",154
+confirm,"confirmed, confirming, confirms, confirm",154
+characterization,"characterization, characterizations",154
+localization,"localizations, localization",154
+injection,"injections, injection",153
+scheme,"scheme, schemes",153
+space,"spaced, space, spacing, spaces",153
+project,"projected, projecting, projects, project",153
+magnification,"magnifications, magnification",153
+form,"forms, formed, forming, form",153
+muscle,"muscles, muscle",153
+variation,"variations, variation",151
+outline,"outline, outlines, outlined, outlining",151
+square,"square, squared, squares",150
+develop,"developing, developed, develop",150
+deviation,"deviation, deviations",150
+intermediate,"intermediate, intermediates",150
+dependent,dependent,150
+pink,pink,149
+transform,"transform, transformed, transforms, transforming",148
+reduce,"reduced, reduce, reducing, reduces",148
+cancer,"cancers, cancer",148
+chromatin,chromatin,148
+quartile,"quartiles, quartile",147
+subject,"subjects, subject, subjected",147
+produce,"producing, produced, produces, produce",146
+dimensional,dimensional,146
+detail,"details, detailing, detailed, detail",146
+million,"million, millions",146
+genotype,"genotype, genotypes, genotyping, genotyped",146
+protocol,"protocols, protocol",146
+basis,"basis, bases",145
+involve,"involving, involved, involves, involve",145
+branch,"branches, branched, branching, branch",144
+subcluster,"subclusters, subcluster",144
+solid,solid,143
+fluorescence,fluorescence,143
+divide,"dividing, divide, divided, divides",143
+barcode,"barcoding, barcodes, barcode, barcoded",143
+cytokine,"cytokines, cytokine",143
+node,"node, nodes",142
+basal,basal,142
+bone,"bones, bone",142
+genomic,"genomic, genomics",141
+loss,"loss, losses",141
+double,"double, doubled, doubling",141
+combination,"combination, combinations",140
+cortical,cortical,139
+classify,"classify, classifies, classified, classifying",138
+variance,"variances, variance",138
+liver,"livers, liver",138
+seven,seven,137
+classification,"classification, classifications",136
+pairwise,pairwise,136
+venn,venn,136
+atlas,"atlases, atlas",136
+cross,"cross, crossed, crossing",136
+promoter,"promoters, promoter",135
+downregulate,"downregulate, downregulated, downregulating",135
+grey,grey,135
+stromal,stromal,135
+exact,exact,135
+category,"category, categories",134
+neural,neural,134
+infection,"infections, infection",134
+report,"reporting, reports, report, reported",133
+overall,overall,133
+association,"association, associations",133
+measurement,"measurement, measurements",132
+plate,"plates, plate, plated, plating",132
+ligand,"ligand, ligands",132
+inject,"injecting, injected, injects",132
+induction,induction,131
+immunofluorescence,immunofluorescence,131
+magenta,magenta,130
+medium,"media, medium",130
+length,"lengths, length",129
+consistent,consistent,129
+canonical,canonical,129
+memory,memory,129
+end,"ending, ends, end",128
+corresponding,corresponding,128
+start,"starts, starting, started, start",128
+compute,"computing, compute, computed",128
+tree,"trees, tree",128
+respective,respective,128
+interquartile,interquartile,128
+remain,"remaining, remained, remain, remains",127
+progression,progression,127
+characteristic,"characteristic, characteristics",126
+colored,colored,126
+expect,"expect, expected",126
+tfs,tfs,126
+naive,naive,126
+immunoﬂuorescence,immunoﬂuorescence,126
+approach,"approach, approaches, approaching",125
+dendritic,dendritic,125
+system,"systems, system",124
+field,"field, fields",124
+common,common,124
+stimulate,"stimulating, stimulated, stimulate",124
+nuclear,nuclear,123
+kidney,"kidney, kidneys",123
+fisher,"fishers, fisher",123
+marrow,"marrow, marrows",123
+mapping,"mapping, mappings",122
+information,information,122
+growth,growth,122
+vertical,vertical,121
+reduction,"reductions, reduction",120
+bonferroni,bonferroni,120
+edge,"edges, edge",120
+percent,percent,120
+fish,fish,120
+quality,quality,119
+dotted,dotted,119
+distinguish,"distinguishing, distinguish, distinguishes, distinguished",119
+spleen,"spleens, spleen",119
+chip,"chips, chip",118
+drive,"driving, drive, drives, driven, drove",118
+summarize,"summarizes, summarizing, summarize, summarized",118
+sub,sub,118
+treg,"treg, tregs",118
+active,active,117
+structure,"structures, structure",117
+false,false,117
+putative,putative,117
+monocle,monocle,117
+compartment,"compartment, compartments",117
+live,"lived, live, living",117
+available,available,116
+spearman,spearman,116
+mutation,"mutations, mutation",116
+mutant,"mutant, mutants",116
+precursor,"precursor, precursors",116
+clonal,clonal,116
+discovery,discovery,115
+enhancer,"enhancer, enhancers",115
+epithelium,epithelium,115
+fit,"fitted, fitting, fit, fits",114
+contribution,"contribution, contributions",114
+course,"courses, course",114
+immunohistochemistry,immunohistochemistry,114
+umis,umis,114
+seurat,seurat,114
+percentile,"percentiles, percentile",114
+regulation,regulation,113
+file,"file, files, filed",113
+infect,"infects, infected, infecting",113
+absolute,absolute,112
+random,random,112
+original,original,111
+near,"nearest, near",111
+facs,facs,111
+ifn,ifn,111
+status,status,111
+oligodendrocyte,"oligodendrocyte, oligodendrocytes",110
+cohort,"cohorts, cohort",110
+iii,iii,109
+global,global,109
+direct,"directs, directed, direct",109
+unsupervise,unsupervised,109
+genetic,"genetics, genetic",109
+specifically,specifically,109
+enriched,enriched,109
+exclude,"excluded, exclude, excluding, excludes",109
+separately,separately,109
+month,"months, month",109
+young,"youngest, younger, young",109
+smooth,"smoother, smoothing, smoothed, smooth",108
+link,"linking, link, links, linked",108
+glia,glia,108
+index,"indexed, indices, indexes, index",108
+open,"opened, open, opening, opens",107
+pie,"pie, pies",107
+formation,"formations, formation",107
+unsupervised,unsupervised,107
+take,"taken, took, takes, taking",106
+probability,"probability, probabilities",106
+symbol,"symbol, symbols",106
+absence,absence,105
+ﬂuorescence,ﬂuorescence,105
+legend,"legends, legend",105
+repeat,"repeating, repeats, repeat, repeated",105
+sorted,sorted,105
+neutrophil,"neutrophil, neutrophils",105
+procedure,"procedure, procedures",104
+integrate,"integrates, integrated, integrate, integrating",104
+technical,technical,104
+illustration,"illustrations, illustration",104
+tukey,tukey,104
+strong,"stronger, strong, strongest",104
+adjacent,adjacent,104
+minimum,minimum,104
+proximal,proximal,103
+mixed,mixed,103
+apply,"apply, applied, applies, applying",102
+lack,"lacking, lack, lacked, lacks",102
+body,"bodies, body",102
+input,"input, inputs",102
+belong,"belonged, belongs, belong, belonging",102
+temporal,temporal,102
+benjamini,benjamini,102
+consider,"considered, consider, considers, considering",102
+cre,"cres, cre",102
+tdtomato,tdtomato,102
+skin,"skins, skin",102
+case,"case, cases",101
+support,"support, supports, supported, supporting",101
+effector,"effector, effectors",101
+extended,extended,101
+expansion,"expansion, expansions",101
+expand,"expand, expanded, expands, expanding",100
+algorithm,"algorithm, algorithms",100
+dendrogram,"dendrograms, dendrogram",100
+name,"names, named",100
+intestinal,intestinal,100
+mice,mice,100
+distal,distal,99
+hochberg,hochberg,99
+quantitative,quantitative,98
+characterize,"characterizing, characterized, characterize, characterizes",97
+tpm,"tpm, tpms",97
+regulator,"regulators, regulator",97
+gsea,"gsea, gseas",97
+split,"splits, split",96
+merge,"merging, merged, merge",96
+hoc,hoc,96
+track,"tracks, tracked, track, tracking",96
+channel,"channel, channels",96
+tcr,"tcr, tcrs",96
+generation,"generations, generation",95
+long,"long, longer, longest",94
+domain,"domain, domains",94
+cultured,cultured,94
+accessibility,"accessibilities, accessibility",94
+heart,"heart, hearts",94
+cdna,"cdna, cdnas",93
+survival,survival,93
+analyse,"analyse, analysing, analysed, analyses",93
+membrane,"membranes, membrane",92
+weight,"weighted, weight, weights",92
+mediate,"mediated, mediating, mediates, mediate",92
+gradient,"gradients, gradient",92
+variability,"variabilities, variability",91
+motif,"motif, motifs",91
+hsc,"hscs, hsc",91
+zone,"zone, zones",91
+morphology,"morphologies, morphology",90
+pseudo,pseudo,90
+validate,"validated, validating, validate, validates",90
+diversity,"diversities, diversity",90
+batch,"batch, batches",90
+vascular,vascular,90
+excitatory,excitatory,89
+chromosome,"chromosome, chromosomes",89
+resolution,"resolution, resolutions",89
+aggregate,"aggregated, aggregating, aggregates, aggregate",89
+retina,"retinas, retina",89
+diffusion,diffusion,89
+connect,"connecting, connects, connected, connect",88
+depth,"depth, depths",88
+posterior,posterior,88
+organ,"organs, organ",88
+ish,ish,88
+injury,"injury, injuries",88
+ihc,"ihcs, ihc",88
+maintain,"maintains, maintained, maintain, maintaining",87
+cyan,cyan,87
+new,new,87
+labeling,labeling,87
+background,"backgrounds, background",87
+purify,"purified, purify",87
+copy,"copies, copied, copy",86
+bin,"binning, binned, bins, bin",86
+evaluate,"evaluating, evaluates, evaluate, evaluated",86
+novel,novel,86
+outlier,"outlier, outliers",86
+inhibitor,"inhibitor, inhibitors",86
+lateral,lateral,86
+workflow,"workflows, workflow",86
+male,"male, males",86
+murine,murine,86
+contrast,"contrasts, contrasting, contrasted, contrast",85
+unit,"units, unit",85
+prediction,"predictions, prediction",85
+trace,"trace, tracing, traces, traced",85
+specie,species,85
+great,"greatest, greater, great",85
+localize,"localized, localize, localizes, localizing",85
+step,"step, steps",84
+transfer,"transfers, transfer, transferred",84
+efficiency,"efficiencies, efficiency",84
+construct,"constructing, constructs, construct, constructed",84
+microscopy,microscopy,84
+proliferate,"proliferate, proliferating, proliferated, proliferates",84
+intracellular,intracellular,83
+concentration,"concentration, concentrations",83
+reconstruction,"reconstruction, reconstructions",83
+randomly,randomly,83
+well,"wells, better, best",83
+inhibitory,inhibitory,83
+imaging,imaging,83
+nuclei,nuclei,83
+niche,"niches, niche",83
+lymphocyte,"lymphocytes, lymphocyte",83
+pbmcs,pbmcs,83
+tam,"tam, tams",83
+probe,"probes, probing, probed, probe",82
+lead,"leads, leading, lead, led",82
+collection,"collections, collection",82
+refer,"refer, refers, referred, referring",82
+mix,"mixed, mix, mixing",82
+cumulative,cumulative,82
+unbiased,unbiased,82
+core,"core, cores",82
+stack,"stack, stacking, stacked, stacks",82
+promote,"promoted, promote, promoting, promotes",82
+vary,"varies, varied, varying, vary",82
+allow,"allow, allowing, allowed, allows",82
+tamoxifen,tamoxifen,82
+add,"add, added, adding, adds",81
+anterior,anterior,81
+testing,testing,81
+wnt,"wnts, wnt",81
+interneuron,"interneurons, interneuron",80
+acid,"acids, acid",80
+recover,"recovering, recover, recovers, recovered",80
+bead,"beads, bead",80
+downstream,downstream,80
+dcs,dcs,80
+ventral,ventral,80
+candidate,"candidates, candidate",80
+mount,"mounting, mounted, mounts, mount",80
+biopsy,"biopsies, biopsy",80
+clinical,clinical,80
+close,"close, closing, closer, closest, closed",79
+preparation,"preparations, preparation",79
+upregulation,upregulation,79
+esc,"escs, esc",79
+raw,raw,79
+drop,"drops, drop, dropped, dropest",79
+retinal,retinal,79
+amplification,"amplifications, amplification",78
+independently,independently,78
+coverage,"coverages, coverage",78
+explain,"explain, explaining, explained, explains",78
+selection,selection,78
+deletion,"deletion, deletions",78
+malignant,malignant,78
+workﬂow,"workﬂows, workﬂow",78
+uniform,uniform,78
+colon,"colons, colon",78
+initial,initial,77
+limit,"limited, limits, limit, limiting",77
+dissociate,dissociated,77
+specificity,"specificities, specificity",77
+addition,addition,77
+contribute,"contributed, contributes, contribute, contributing",77
+central,central,77
+hematopoietic,hematopoietic,77
+atac,atac,77
+interest,"interest, interests",76
+locus,locus,76
+allele,"allele, alleles",76
+publish,published,76
+isolation,"isolation, isolations",76
+inflammatory,inflammatory,76
+landscape,"landscape, landscapes",76
+intestine,"intestine, intestines",76
+biologically,biologically,76
+material,"material, materials",75
+reverse,"reversed, reverse, reverses",75
+female,"females, female",75
+heterogeneous,heterogeneous,75
+perturbation,"perturbations, perturbation",75
+naïve,naïve,75
+recipient,"recipients, recipient",75
+later,later,75
+parameter,"parameter, parameters",74
+statistically,statistically,74
+min,min,74
+examine,"examining, examined, examine",74
+shift,"shifts, shifted, shift",74
+exon,"exons, exon",74
+hour,"hour, hours",74
+gland,"gland, glands",74
+velocity,"velocity, velocities",74
+product,"product, products",73
+align,"aligns, aligned, align, aligning",73
+complete,"complete, completing, completed",73
+separation,"separation, separations",73
+wide,"wide, wider",73
+entire,entire,73
+cytometric,cytometric,73
+direction,"directions, direction",73
+cycling,cycling,73
+stress,"stressed, stress",73
+embedding,"embeddings, embedding",73
+platform,"platforms, platform",72
+statistic,"statistics, statistic",72
+enable,"enabling, enable, enabled, enables",72
+somatic,somatic,72
+maturation,maturation,72
+affect,"affected, affecting, affects, affect",72
+event,"event, events",72
+undergo,"undergone, undergo, underwent, undergoing, undergoes",72
+coronal,coronal,72
+spike,"spikes, spike, spiking, spiked",71
+dissect,"dissected, dissect, dissecting, dissects",71
+coordinate,"coordinated, coordinates, coordinating, coordinate",71
+vehicle,vehicle,71
+shape,"shaping, shape, shaped, shapes",71
+sorting,sorting,71
+mitochondrial,mitochondrial,71
+amplify,"amplifies, amplified, amplify, amplifying",70
+complex,"complexes, complex",70
+prior,"priors, prior",70
+multi,multi,70
+dorsal,dorsal,70
+lymphoid,lymphoid,70
+loading,"loadings, loading",70
+depletion,"depletions, depletion",70
+deplete,"deplete, depletes, depleting, depleted",70
+manifold,"manifolds, manifold",70
+restrict,"restricting, restricted, restrict, restricts",69
+variant,"variants, variant",69
+segment,"segments, segment, segmented",69
+proliferative,proliferative,69
+vessel,"vessel, vessels",69
+appear,"appears, appearing, appeared, appear",69
+magnify,magnified,69
+islet,"islets, islet",69
+regeneration,regeneration,69
+scrnaseq,scrnaseq,69
+database,"database, databases",68
+svz,"svz, svzs",68
+plasma,plasma,68
+filter,"filtered, filter, filtering, filters",68
+pro,"pro, pros",68
+remove,"removed, remove, removes, removing",68
+shaded,shaded,67
+proportional,proportional,67
+inhibition,inhibition,67
+degree,"degree, degrees",67
+processing,processing,67
+role,"roles, role",67
+alveolar,alveolar,67
+postnatal,postnatal,67
+opc,"opcs, opc",67
+qrt,qrt,67
+tumour,"tumours, tumour",67
+peptide,"peptide, peptides",66
+loci,loci,66
+inner,inner,66
+parenthesis,"parenthesis, parentheses",66
+production,production,66
+require,"require, requires, requiring, required",66
+relevant,relevant,66
+primer,"primers, primer",65
+outer,outer,65
+conserve,conserved,65
+specification,"specifications, specification",65
+reflect,"reflects, reflecting, reflected, reflect",65
+colony,"colonies, colony",65
+screen,"screening, screens, screened, screen",65
+ordering,"ordering, orderings",65
+fluorescent,fluorescent,65
+grow,"growing, grew, grown, grow",65
+terminal,"terminal, terminals",65
+rest,"rest, rested, rests, resting",65
+vector,"vector, vectors",65
+occur,"occurred, occur, occurs, occurring",65
+hspc,"hspcs, hspc",65
+airway,"airway, airways",65
+triangle,"triangles, triangle",64
+gabaergic,gabaergic,64
+equal,"equals, equal",64
+sensitivity,"sensitivities, sensitivity",64
+element,"element, elements",64
+run,"run, runs, running, ran",64
+germ,germ,64
+viral,viral,64
+rows,rows,64
+border,"borders, border",64
+stratify,"stratify, stratifying, stratified",64
+droplet,"droplet, droplets",64
+crypt,"crypts, crypt",64
+untreated,untreated,64
+til,"tils, til",64
+rare,rare,63
+brown,brown,63
+ﬂuorescent,ﬂuorescent,63
+likely,likely,63
+fragment,"fragments, fragmented, fragment",63
+pass,"passes, passed, passing, pass",63
+approximation,approximation,63
+pancreatic,pancreatic,63
+reprogramme,"reprogramming, reprogrammed",63
+previous,previous,62
+fill,"fills, filled, fill",62
+bright,"brighter, bright, brightest",62
+mast,mast,62
+harvest,"harvested, harvest",62
+mhc,mhc,62
+kinetic,"kinetics, kinetic",62
+glial,glial,62
+enhance,"enhanced, enhancing, enhance, enhances",62
+annotated,annotated,62
+transplantation,"transplantation, transplantations",62
+likelihood,"likelihood, likelihoods",62
+insulin,insulin,62
+tnf,tnf,62
+infiltrate,"infiltrating, infiltrates, infiltrate, infiltrated",62
+performance,"performance, performances",61
+sidak,sidak,61
+real,real,61
+transgenic,transgenic,61
+egfp,egfp,61
+particular,particular,61
+suspension,"suspensions, suspension",61
+classical,classical,61
+family,"families, family",61
+root,"root, rooted, roots",61
+exposure,"exposures, exposure",61
+specify,"specifies, specifying, specify, specified",61
+isc,"iscs, isc",61
+short,"short, shortest, shorter",60
+yield,"yield, yielded, yielding, yields",60
+antigen,"antigen, antigens",60
+rnaseq,rnaseq,60
+neighbour,"neighbour, neighbours, neighbouring",60
+comprise,"comprises, comprising, comprise, comprised",60
+pan,"panning, pan",60
+boundary,"boundaries, boundary",60
+receive,"received, receives, receiving, receive",60
+ventricle,"ventricles, ventricle",60
+prime,"priming, primed, primes, prime",60
+alter,"altering, altered, alter, alters",60
+fresh,fresh,60
+hla,hla,60
+broad,"broad, broader",59
+contour,"contours, contour",59
+zero,"zeros, zero",59
+cardiac,cardiac,59
+transduce,"transduced, transducing, transduce",59
+hypergeometric,hypergeometric,59
+splenic,splenic,59
+property,"properties, property",58
+detectable,detectable,58
+text,text,58
+smart,"smarter, smart",58
+noise,noise,58
+consist,"consisted, consist, consists, consisting",58
+content,"contents, content",58
+deep,"deeper, deep",58
+strongly,strongly,58
+transplant,"transplants, transplant, transplanted",58
+host,"hosts, hosting, host",58
+zoom,"zoom, zoomed",58
+degs,degs,58
+locate,"located, locate",57
