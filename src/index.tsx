@@ -261,11 +261,33 @@ export default function App() {
     setCorrelationTags(initialCorrelationTag);
     setClusteringTags(initialClusteringTag);
     setDistributionTags(initialDistributionTag);
+    const loading = document.getElementById("loading");
+    if (loading) loading.remove();
     // setMLTags(initialMLTag);
 
   };
 
   useEffect(() => {
+    const loadingDiv = document.createElement("div");
+    loadingDiv.id = "loading";
+    loadingDiv.textContent = "📊 Loading 2,000+ figures and visual tags...";
+
+    loadingDiv.style.position = "fixed";
+    loadingDiv.style.top = "50%";
+    loadingDiv.style.left = "50%";
+    loadingDiv.style.transform = "translate(-50%, -50%)";
+    loadingDiv.style.fontSize = "28px";
+    loadingDiv.style.fontWeight = "bold";
+    loadingDiv.style.color = "#222";
+    loadingDiv.style.background = "rgba(255, 255, 255, 0.95)";
+    loadingDiv.style.padding = "20px 30px";
+    loadingDiv.style.border = "2px solid #ddd";
+    loadingDiv.style.borderRadius = "10px";
+    loadingDiv.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.15)";
+    loadingDiv.style.zIndex = "9999";
+    
+    document.body.appendChild(loadingDiv);
+
     fetchData(defaultVersion);
   }, []);
 
@@ -365,6 +387,28 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
+    <a
+      href="https://github.com/HDVIS/HDVIS.github.io/tree/master/HD_code"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        position: "fixed",
+        top: "10px",
+        right: "20px",
+        zIndex: 9999, // ⬅️ 重点加高
+        background: "#ffffffee",
+        padding: "10px 14px",
+        borderRadius: "8px",
+        boxShadow: "0 0 10px rgba(0,0,0,0.2)",
+        textDecoration: "none",
+        color: "#000",
+        fontSize: "16px",
+        fontWeight: "bold",
+        border: "2px solid red" // ⬅️ 明显边框，确认有没有渲染出来
+      }}
+    >
+      📂 HD_code
+    </a>
       <div className={classes.root}>
         <CssBaseline />
 
