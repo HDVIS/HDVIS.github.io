@@ -23,9 +23,9 @@ jobs:
       - name: Test Build
         run: |
           if [ -e package-lock.json ]; then
-          npm ci
+          npm ci --legacy-peer-deps
           else
-          npm i
+          npm i --legacy-peer-deps
           fi
           npm run build
   build-and-deploy:
