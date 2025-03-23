@@ -22,11 +22,7 @@ jobs:
           node-version: '16.x'
       - name: Test Build
         run: |
-          if [ -e package-lock.json ]; then
-          npm ci --legacy-peer-deps
-          else
-          npm i --legacy-peer-deps
-          fi
+          npm install --legacy-peer-deps
           npm run build
   build-and-deploy:
     if: github.event_name != 'pull_request'
@@ -41,11 +37,7 @@ jobs:
 
       - name: build
         run: |
-          if [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
+          npm install --legacy-peer-deps
           npm run build
 
       - name: Deploy 🚀
