@@ -25,7 +25,6 @@ export interface Paper {
   Correlation: string[];
   Clustering: string[];
   Distribution: string[];
-  VisualizationTypes: string[];
 }
 
 // export const getAvatar = (s: string) => {
@@ -137,67 +136,9 @@ export const getDistributionLabel = (s: string) => {
   } 
 };
 
-
-export const getVisualizationTypesAvatar = (s: string) => {
-  if (s === 'Heatmap') {
-    return 'V1';
-  } else if (s === 'HierarchicalClustering') {
-    return 'V2';
-  } else if (s === 'ViolinPlot') {
-    return 'V7';
-  } else if (s === 'BarChart') {
-    return 'V3';
-  } else if (s === 'VolcanoPlot') {
-    return 'V11';
-  } else if (s === 'ScatterPlot') {
-    return 'V5';
-  } else if (s === 'NetworkDiagram') {
-    return 'V8';
-  } else if (s === 'LineChart') {
-    return 'V4';
-  } else if (s === 'BoxPlot') {
-    return 'V6';
-  } else if (s === 'BubblePlot') {
-    return 'V10';
-  } else if (s === 'Others') {
-    return 'V9';
-  }
-};
-
-export const getVisualizationTypesLabel = (s: string) => {
-  if (s === 'Heatmap') {
-    return 'Heatmap';
-  } else if (s === 'HierarchicalClustering') {
-    return 'Hierarchical Clustering';
-  } else if (s === 'ViolinPlot') {
-    return 'Violin Plot';
-  } else if (s === 'BarChart') {
-    return 'Bar Chart';
-  } else if (s === 'VolcanoPlot') {
-    return 'Volcano Plot';
-  } else if (s === 'ScatterPlot') {
-    return 'Scatter Plot';
-  } else if (s === 'NetworkDiagram') {
-    return 'Network Diagram';
-  } else if (s === 'LineChart') {
-    return 'Line Chart';
-  } else if (s === 'BoxPlot') {
-    return 'Box Plot';
-  } else if (s === 'BubblePlot') {
-    return 'Bubble Plot';
-  } else if (s === 'Others') {
-    return 'Others';
-  }
-};
-
-
-
-
-
-
 export default function App() {
   const classes = useStyles();
-  const defaultVersion = "webdata_vistypes"
+  const defaultVersion = "webdata"
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [papers, setPapers] = useState<Paper[]>([]);
@@ -205,8 +146,6 @@ export default function App() {
   const [CorrelationTags, setCorrelationTags] = useState({});
   const [ClusteringTags, setClusteringTags] = useState({});
   const [DistributionTags, setDistributionTags] = useState({});
-  const [VisualizationTypesTags, setVisualizationTypesTags] = useState({});
-
   const [searchKey, setSearchKey] = useState('');
   const [version, setVersion] = useState(defaultVersion);
 
@@ -264,16 +203,6 @@ export default function App() {
       return o;
     }, {})
 
-    const initialVisualizationTypesTag = papers.reduce((o, d) => {
-        (d.VisualizationTypes || []).forEach((v) => {
-            if (!(v in o)) {
-            o[v] = true;
-            }
-        });
-        return o;
-    }, {});
-
-
     const initialPaperYear = papers.reduce((o, d) => {
       if (! (d.year in o)){
         o[d.year] = 1
@@ -300,7 +229,6 @@ export default function App() {
     const CorrelationTags = Object.keys(initialCorrelationTag)
     const ClusteringTags = Object.keys(initialClusteringTag)
     const DistributionTags = Object.keys(initialDistributionTag)
-    const VisualizationTypesTags = Object.keys(initialVisualizationTypesTag)
 
     // let initialMatrix = VISTags.map(_ =>MLTags.map( _ =>0))
 
@@ -333,8 +261,6 @@ export default function App() {
     setCorrelationTags(initialCorrelationTag);
     setClusteringTags(initialClusteringTag);
     setDistributionTags(initialDistributionTag);
-    setVisualizationTypesTags(initialVisualizationTypesTag);
-
     const loading = document.getElementById("loading");
     if (loading) loading.remove();
     // setMLTags(initialMLTag);
@@ -368,7 +294,7 @@ export default function App() {
   const onProfileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const onClickFilter = (tag: string, type: "Trajectory" | "Correlation" | "Clustering" | "Distribution" | "VisualizationTypes") => {
+  const onClickFilter = (tag: string, type: "Trajectory" | "Correlation" | "Clustering" | "Distribution") => {
     if (type === "Trajectory") {
       if (tag !== 'all') {
         const newTrajectoryTags = {
@@ -441,24 +367,7 @@ export default function App() {
         setDistributionTags(newDistributionTags);
       }
       
-    } else if (type === "VisualizationTypes") {
-    if (tag !== 'all') {
-      const newVisualizationTypesTags = {
-        ...VisualizationTypesTags,
-        [tag]: !VisualizationTypesTags[tag],
-      };
-      setVisualizationTypesTags(newVisualizationTypesTags);
-    } else {
-      const flag = Object.values(VisualizationTypesTags).every(d => d);
-      const newVisualizationTypesTags = Object.keys(VisualizationTypesTags).reduce((o, d) => {
-        if (!(d in o)) {
-          o[d] = !flag;
-        }
-        return o;
-      }, {});
-      setVisualizationTypesTags(newVisualizationTypesTags);
     }
-  }
     
   };
   const onSetSearchKey = (searchKey:string)=>{
@@ -471,7 +380,7 @@ export default function App() {
   }
 
   
-  const papersAfterFilter = Array.from(new Set(papers.filter((p) => p.Trajectory.some(((tr) => TrajectoryTags[tr])) && p.Title.toLowerCase().includes(searchKey)).concat(papers.filter((p) => p.Correlation.some((co) => CorrelationTags[co]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.Clustering.some((cl) => ClusteringTags[cl]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.Distribution.some((di) => DistributionTags[di]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.VisualizationTypes.some((v) => VisualizationTypesTags[v]) && p.Title.toLowerCase().includes(searchKey)))));
+  const papersAfterFilter = Array.from(new Set(papers.filter((p) => p.Trajectory.some(((tr) => TrajectoryTags[tr])) && p.Title.toLowerCase().includes(searchKey)).concat(papers.filter((p) => p.Correlation.some((co) => CorrelationTags[co]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.Clustering.some((cl) => ClusteringTags[cl]) && p.Title.toLowerCase().includes(searchKey))).concat(papers.filter((p) => p.Distribution.some((di) => DistributionTags[di]) && p.Title.toLowerCase().includes(searchKey)))));
 
   // const papersAfterFilter = Array.from(intersection(new Set(papers.filter((p) => p.Trajectory.some(((tr) => TrajectoryTags[tr])) && p.Title.toLowerCase().includes(searchKey))), intersection(new Set(papers.filter((p) => p.Correlation.some((co) => CorrelationTags[co]) && p.Title.toLowerCase().includes(searchKey))), intersection(new Set(papers.filter((p) => p.Clustering.some((cl) => ClusteringTags[cl]) && p.Title.toLowerCase().includes(searchKey))), new Set(papers.filter((p) => p.Distribution.some((di) => DistributionTags[di]) && p.Title.toLowerCase().includes(searchKey)))))));
 
@@ -511,7 +420,6 @@ export default function App() {
           CorrelationTags={CorrelationTags}
           ClusteringTags={ClusteringTags}
           DistributionTags={DistributionTags}
-          VisualizationTypesTags={VisualizationTypesTags}
           version={version}
           onClickFilter={onClickFilter}
           onSetSearchKey={onSetSearchKey}

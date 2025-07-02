@@ -13,11 +13,10 @@ import {
   MenuItem,
   Button,
   Hidden,
-  Grid,
 } from "@material-ui/core";
 import { Search as SearchIcon, LaunchOutlined as LaunchIcon } from "@material-ui/icons";
 import Select from '@material-ui/core/Select';
-import { getClusteringAvatar, getClusteringLabel, getCorrelationLabel, getCorrelationAvatar, getDistributionAvatar, getTrajectoryAvatar, getDistributionLabel, getTrajectoryLabel, getVisualizationTypesAvatar, getVisualizationTypesLabel} from '../index'
+import { getClusteringAvatar, getClusteringLabel, getCorrelationLabel, getCorrelationAvatar, getDistributionAvatar, getTrajectoryAvatar, getDistributionLabel, getTrajectoryLabel} from '../index'
 import { useStyles } from "./style";
 
 
@@ -68,21 +67,19 @@ interface Props {
   CorrelationTags: Record<string, boolean>;
   ClusteringTags: Record<string, boolean>;
   DistributionTags: Record<string, boolean>;
-  VisualizationTypesTags: Record<string, boolean>;
-
   paperYear: Record<string, number>;
   paperArea: Record<string, number>;
   // paperMatrix: TPaperMatrix;
   mobileOpen: boolean;
   handleDrawerToggle: () => void;
-  onClickFilter: (k: string, type: 'Trajectory' | 'Correlation' | 'Clustering' | 'Distribution'| 'VisualizationTypes') => void;
+  onClickFilter: (k: string, type: 'Trajectory' | 'Correlation' | 'Clustering' | 'Distribution') => void;
   onSetSearchKey: (key: string) => void;
   onSetVersion: (version: string) => void;
 }
 
 
 export function SideBar(props: Props) {
-  const { paperNumber, TrajectoryTags, CorrelationTags, ClusteringTags, DistributionTags, VisualizationTypesTags, onClickFilter, onSetSearchKey, onSetVersion, paperArea, paperYear, mobileOpen, handleDrawerToggle } = props;
+  const { paperNumber, TrajectoryTags, CorrelationTags, ClusteringTags, DistributionTags, onClickFilter, onSetSearchKey, onSetVersion, paperArea, paperYear, mobileOpen, handleDrawerToggle } = props;
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const classes = useStyles();
@@ -102,7 +99,6 @@ export function SideBar(props: Props) {
 
     <Divider />
 
-
     <Typography variant="subtitle2" className={classes.filterTitle}>
       Keywords & Visualization Types search:
     </Typography>
@@ -120,30 +116,6 @@ export function SideBar(props: Props) {
         onChange={(event) => onSetSearchKey(event.target.value)}
       />
     </div>
-
-      
-    <Typography variant="subtitle2" className={classes.filterTitle}>
-      Visualization Type filter: <Button variant="outlined" size="small" onClick={() => onClickFilter("all", 'VisualizationTypes')}> {Object.values(VisualizationTypesTags).every(d => d) ? 'Unselect All' : 'Select All'}</Button>
-    </Typography>
-    <div className={classes.filters}>
-      <div className={classes.filters}>
-        {Object.entries(VisualizationTypesTags).map(([vt, checked]) => (
-          <Chip
-            key={vt}
-            avatar={<Avatar style={{ backgroundColor: theme.palette.warning.main, color: "white" }}> <b>{getVisualizationTypesAvatar(vt)}</b></Avatar>}
-            label={getVisualizationTypesLabel(vt)}
-            clickable
-            variant={checked ? "default" : "outlined"}
-            style={{backgroundColor: checked ? theme.palette.warning.light : "white", color: checked ? "white" : theme.palette.warning.light  }}
-            onClick={() => onClickFilter(vt, 'VisualizationTypes')}
-          />
-    ))}
-    </div>
-  </div>
-  <Divider />
-
-
-
 
     <Typography variant="subtitle2" className={classes.filterTitle}>
     Trajectory Filter: <Button variant="outlined" size="small" onClick={() => onClickFilter("all", 'Trajectory')}> {Object.values(TrajectoryTags).every(d => d) ? 'Unselect All' : 'Select All'}</Button>
@@ -225,10 +197,6 @@ export function SideBar(props: Props) {
       </div>
     </div>
     <Divider />
-
-    
-
-  
     {/* <FormControl required className={classes.formControl}>
     <InputLabel>Version</InputLabel> */}
     {/* <Typography variant="subtitle2" className={classes.filterTitle}>

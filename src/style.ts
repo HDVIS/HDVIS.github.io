@@ -1,5 +1,5 @@
 import { createStyles, Theme, makeStyles, createMuiTheme } from "@material-ui/core/styles";
-import { pink, indigo, teal, deepOrange } from "@material-ui/core/colors";
+import { pink, indigo, teal, deepOrange, purple } from "@material-ui/core/colors";
 
 
 
@@ -18,6 +18,7 @@ export const theme = createMuiTheme({
         secondary: indigo,
         info: teal,
         success: deepOrange,
+        warning: purple,
     },
     overrides: {
         MuiChip: {
