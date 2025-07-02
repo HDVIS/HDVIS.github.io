@@ -2,3 +2,5 @@
 node_modules
 dist
 others
+assets/papers/
+assets/paper_images.tar.gz
